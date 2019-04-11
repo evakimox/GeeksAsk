@@ -1,0 +1,37 @@
+.header_bar{
+    top:0px;
+    left: 0px;
+    position: absolute;
+    width: 100%;
+    background-color: darkgreen;
+    color: #eeffee;
+    font-size: 24px;
+    padding: 15px;
+}
+
+.content_area{
+    margin-top: 70px;
+}
+
+.custom_button{
+    width: 300px;
+    padding:10px;
+    background-color: darkgreen;
+    color: #eeffee;
+    text-align: center;
+    margin-bottom: 50px;
+    display: inline-block;
+}
+
+.custom_button:hover{
+    background-color: #339933;
+}
+
+.custom_button:active{
+    background-color: #225522;
+}
+
+.link_ico{
+    display: inline-block;
+    margin-top: -50px;
+}

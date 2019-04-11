@@ -1,0 +1,35 @@
+.question_block{
+    padding: 15px;
+    font-size: 20px;
+    color: #555555
+}
+
+.key_block{
+    padding: 10px;
+    font-size: 18px;
+    color: #555555
+}
+
+.key_block:hover{
+    background-color: #eeffee;
+}
+
+.key_block:active{
+    background-color: #aaffaa;
+}
+
+
+.wrong_block{
+    padding: 10px;
+    font-size: 18px;
+    color: #999999;
+    background-color: #aa5555;
+}
+
+.correct_block{
+    padding: 10px;
+    font-size: 18px;
+    color: #333333;
+    background-color: #55aa55;
+}
+
