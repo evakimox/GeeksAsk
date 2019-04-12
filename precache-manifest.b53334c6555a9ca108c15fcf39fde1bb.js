@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "3b71a9f4fa8b7ad2668b",
+    "revision": "b4538d2f2a9ab7445fa4",
     "url": "/GeeksAsk/static/css/main.fa23b5df.chunk.css"
   },
   {
-    "revision": "3b71a9f4fa8b7ad2668b",
-    "url": "/GeeksAsk/static/js/main.f4ccc22f.chunk.js"
+    "revision": "b4538d2f2a9ab7445fa4",
+    "url": "/GeeksAsk/static/js/main.8c99425c.chunk.js"
   },
   {
     "revision": "7d42ac62e6ea6a335e01",
@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/GeeksAsk/static/media/link.10d26fe4.png"
   },
   {
-    "revision": "1cd02a46a92257bc94416a9778de1120",
+    "revision": "b0b10553b806d60819787b89e90f6d90",
     "url": "/GeeksAsk/index.html"
   }
 ];
