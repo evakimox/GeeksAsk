@@ -120,6 +120,7 @@ class AskingBlocks extends React.Component {
                     updateAnswers={this.updateAnswers}
                 />);
         }
+        const baseUrl = process.env.PUBLIC_URL;
         return (
             <div>
                 <div>{blocks}</div>
@@ -127,7 +128,7 @@ class AskingBlocks extends React.Component {
                     <div className='custom_button' onClick={this.jumpToAns}>
                         Generate my link
                     </div>
-                    {this.state.askPage ? null:<Redirect to='/ans' hellp='itsme'/>}
+                    {this.state.askPage ? null:<Redirect to={baseUrl + '/ans'} hellp='itsme'/>}
 
                 <div className='link_ico' >
                     <img src={LinkImg} style={{height:'70px', width:'auto'}}/>

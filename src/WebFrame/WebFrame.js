@@ -43,6 +43,7 @@ class WebFrame extends React.Component {
     }
 
     render() {
+        const baseUrl = process.env.PUBLIC_URL;
         return (
             <div name='layout'>
                 <div className='header_bar'>
@@ -51,10 +52,10 @@ class WebFrame extends React.Component {
                 <div className='content_area'>
                     <Router>
                         <div>
-                            <Route path='/' exact component={this.asking}/>
-                            <Route path='/ask' exact component={this.asking}/>
-                            <Route path='/ans/:questionnaireId' exact component={this.answering}/>
-                            <Route path='/ans' exact component={this.answering} />
+                            <Route path={baseUrl +'/'} exact component={this.asking}/>
+                            <Route path={baseUrl +'/ask'} exact component={this.asking}/>
+                            <Route path={baseUrl +'/ans/:questionnaireId'} exact component={this.answering}/>
+                            <Route path={baseUrl +'/ans'} exact component={this.answering} />
                         </div>
                     </Router>
                 </div>
